@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUI CompactMode="1">
+	<NormalLayout>
+		<CommandBars Schema="37">
+			<CommandBars>
+				<CommandBar Class="CXTPMenuBar" Type="0" BarID="1" Flags="5727" Style="4194304" Title="Menu Bar" MRUWidth="32767" Closeable="0" ResourceId="2">
+					<Controls OriginalControls="1">
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;File" CommandBarId="16777216"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Edit" CommandBarId="16777218"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Search" CommandBarId="16777226"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;View" CommandBarId="16777227"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Tools" CommandBarId="16777229"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Macros" CommandBarId="16777231"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Configure" CommandBarId="16777232"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Window" CommandBarId="16777233"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Help" CommandBarId="16777234"/>
+						<OriginalControls>
+							<Control Class="CXTPControlPopup" Type="2" Caption="&amp;File" CommandBarId="16777235"/>
+							<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Edit" CommandBarId="16777237"/>
+							<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Search" CommandBarId="16777245"/>
+							<Control Class="CXTPControlPopup" Type="2" Caption="&amp;View" CommandBarId="16777246"/>
+							<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Tools" CommandBarId="16777248"/>
+							<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Macros" CommandBarId="16777250"/>
+							<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Configure" CommandBarId="16777251"/>
+							<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Window" CommandBarId="16777252"/>
+							<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Help" CommandBarId="16777253"/>
+						</OriginalControls>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777216" Style="4194304" Title="File">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57600" Caption="&amp;New" ShortcutText="Ctrl+N" TooltipText="New Document" DescriptionText="Create a new document"/>
+						<Control Class="CGUICmdMenu" Id="57601" Caption="&amp;Open..." ShortcutText="Ctrl+O" TooltipText="Open" DescriptionText="Open an existing document"/>
+						<Control Class="CGUICmdMenu" Id="57602" Caption="&amp;Close" TooltipText="Close" DescriptionText="Close the active document"/>
+						<Control Class="CGUICmdMenu" Id="32785" Caption="Clos&amp;e All" TooltipText="Close all documents" DescriptionText="Close all documents"/>
+						<Control Class="CGUICmdMenu" Id="57603" BeginGroup="1" Caption="&amp;Save" ShortcutText="Ctrl+S" TooltipText="Save" DescriptionText="Save the active document"/>
+						<Control Class="CGUICmdMenu" Id="57604" Caption="Save &amp;As..." ShortcutText="F12" TooltipText="Save As" DescriptionText="Save the active document with a new name"/>
+						<Control Class="CGUICmdMenu" Id="32786" Caption="Save A&amp;ll" ShortcutText="Ctrl+Shift+S" TooltipText="Save All" DescriptionText="Save all changed documents"/>
+						<Control Class="CGUICmdMenu" Id="32772" Caption="&amp;Revert" TooltipText="Revert" DescriptionText="Revert the current document to the last saved version"/>
+						<Control Class="CGUICmdMenu" Id="32775" Caption="Rena&amp;me..." TooltipText="Rename" DescriptionText="Rename or move the current document's file"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="&amp;Workspace" CommandBarId="16777217"/>
+						<Control Class="CGUICmdMenu" Id="32768" BeginGroup="1" Caption="Mana&amp;ge Files..." ShortcutText="F3" TooltipText="Manage Files" DescriptionText="Copy, rename, delete or touch files"/>
+						<Control Class="CGUICmdMenu" Id="57607" BeginGroup="1" Caption="&amp;Print..." TooltipText="Print" DescriptionText="Print the active document"/>
+						<Control Class="CGUICmdMenu" Id="57609" Caption="Print Pre&amp;view" ShortcutText="Ctrl+Shift+P" TooltipText="Print Preview" DescriptionText="Display full pages as they will be printed"/>
+						<Control Class="CGUICmdMenu" Id="57605" Caption="Page Set&amp;up..." TooltipText="Change the printed page setup for the active document class" DescriptionText="Change the printed page setup for the active document class"/>
+						<Control Class="CGUICmdMenu" Id="57612" BeginGroup="1" Caption="Sen&amp;d..." TooltipText="Send Mail" DescriptionText="Send the active document through electronic mail"/>
+						<Control Class="CGUICmdFileMRU" Id="57616" BeginGroup="1" HideFlags="1" Caption="Recent File" TooltipText="Open this document" DescriptionText="Open this document"/>
+						<Control Class="CGUICmdMenu" Id="57665" BeginGroup="1" Caption="E&amp;xit" TooltipText="Quit the application; prompts to save files" DescriptionText="Quit the application; prompts to save files"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777217" Style="4194304" Title="Workspace">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32780" Caption="&amp;Open..." TooltipText="Open Workspace" DescriptionText="Open a workspace"/>
+						<Control Class="CGUICmdMenu" Id="32781" Caption="&amp;Save" TooltipText="Save Workspace" DescriptionText="Save the workspace"/>
+						<Control Class="CGUICmdMenu" Id="32783" Caption="Save &amp;As..." TooltipText="Save Workspace As" DescriptionText="Save the workspace with a new name"/>
+						<Control Class="CGUICmdMenu" Id="32782" Caption="&amp;Close" TooltipText="Close Workspace" DescriptionText="Close the workspace"/>
+						<Control Class="CGUICmdWorkspaceMRU" Id="33232" BeginGroup="1" Caption="Recent Workspace" TooltipText="Open this workspace" DescriptionText="Open this workspace"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777218" Style="4194304" Title="Edit">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57643" Caption="&amp;Undo" ShortcutText="Ctrl+Z" TooltipText="Undo" DescriptionText="Undo the last action"/>
+						<Control Class="CGUICmdMenu" Id="57644" Caption="&amp;Redo" ShortcutText="Ctrl+Y" TooltipText="Redo" DescriptionText="Redo the previously undone action"/>
+						<Control Class="CGUICmdMenu" Id="57635" BeginGroup="1" Caption="Cu&amp;t" ShortcutText="Ctrl+X" TooltipText="Cut" DescriptionText="Cut the selection to the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="57634" Caption="&amp;Copy" ShortcutText="Ctrl+C" TooltipText="Copy" DescriptionText="Copy the selection to the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="57637" Caption="&amp;Paste" ShortcutText="Ctrl+V" TooltipText="Paste" DescriptionText="Insert Clipboard contents"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="Cut Ot&amp;her" CommandBarId="16777219"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="Cop&amp;y Other" CommandBarId="16777220"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Insert" CommandBarId="16777221"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="De&amp;lete" CommandBarId="16777222"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="Chan&amp;ge Case" CommandBarId="16777223"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="Transp&amp;ose" CommandBarId="16777224"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Align" CommandBarId="16777225"/>
+						<Control Class="CGUICmdMenu" Id="32791" BeginGroup="1" Caption="Increase I&amp;ndent" ShortcutText="Ctrl+&gt;" TooltipText="Increase Indent" DescriptionText="Increase indentation of selected lines by the indent size setting"/>
+						<Control Class="CGUICmdMenu" Id="32790" Caption="Reduce In&amp;dent" ShortcutText="Ctrl+Shift+I" TooltipText="Reduce Indent" DescriptionText="Reduce indentation of selected lines by the indent size setting"/>
+						<Control Class="CGUICmdEditJoin" Id="32967" BeginGroup="1" Caption="&amp;Join Lines" ShortcutText="Ctrl+J" TooltipText="Append next line to current line, or join all selected lines" DescriptionText="Append next line to current line, or join all selected lines"/>
+						<Control Class="CGUICmdEditSplit" Id="32964" BeginGroup="1" HideFlags="1" Caption="Split &amp;Wrapped Lines" ShortcutText="Ctrl+Alt+J" TooltipText="Split lines where they wrap at the right margin" DescriptionText="Split lines where they wrap at the right margin"/>
+						<Control Class="CGUICmdMenu" Id="32966" Caption="Refor&amp;mat" ShortcutText="Ctrl+Shift+J" TooltipText="Reformat" DescriptionText="Adjust line lengths to the right margin"/>
+						<Control Class="CGUICmdMenu" Id="32982" BeginGroup="1" Caption="&amp;Fill Block..." TooltipText="Fill selected block with specified character(s)" DescriptionText="Fill selected block with specified character(s)"/>
+						<Control Class="CGUICmdMenu" Id="57642" BeginGroup="1" Caption="&amp;Select All" ShortcutText="Ctrl+A" TooltipText="Select the entire document" DescriptionText="Select the entire document"/>
+						<Control Class="CGUICmdMenu" Id="32802" Caption="Mar&amp;k Clean" TooltipText="Mark the active document as unmodified" DescriptionText="Mark the active document as unmodified"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777219" Style="4194304" Title="Cut Other">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32792" Caption="S&amp;election Append" TooltipText="Cut selection and append to the clipboard" DescriptionText="Cut selection and append to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32800" Caption="&amp;Line" TooltipText="Cut the current line and put it on the Clipboard" DescriptionText="Cut the current line and put it on the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32801" Caption="L&amp;ine Append" TooltipText="Cut the current line and append it to the Clipboard" DescriptionText="Cut the current line and append it to the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32958" Caption="&amp;Word" TooltipText="Cut the word under the cursor and put it on the Clipboard" DescriptionText="Cut the word under the cursor and put it on the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32959" Caption="W&amp;ord Append" TooltipText="Cut the word under the cursor and append it to the Clipboard" DescriptionText="Cut the word under the cursor and append it to the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32980" Caption="&amp;Bookmarked lines" TooltipText="Cut to clipboard all lines with bookmarks on them" DescriptionText="Cut to clipboard all lines with bookmarks on them"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777220" Style="4194304" Title="Copy Other">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32793" Caption="S&amp;election Append" TooltipText="Copy selection and append to the clipboard" DescriptionText="Copy selection and append to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32983" Caption="&amp;Line" TooltipText="Copy the current line to the clipboard" DescriptionText="Copy the current line to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32984" Caption="L&amp;ine Append" TooltipText="Copy the current line and append it to to the clipboard" DescriptionText="Copy the current line and append it to to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32985" Caption="&amp;Word" TooltipText="Copy the current word to the clipboard" DescriptionText="Copy the current word to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32986" Caption="W&amp;ord Append" TooltipText="Copy the current word and append it to to the clipboard" DescriptionText="Copy the current word and append it to to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32981" Caption="&amp;Bookmarked lines" TooltipText="Copy to clipboard all lines with bookmarks on them" DescriptionText="Copy to clipboard all lines with bookmarks on them"/>
+						<Control Class="CGUICmdMenu" Id="32989" Caption="As a &amp;HTML page" TooltipText="Copy selected text to the clipboard as a HTML page" DescriptionText="Copy selected text to the clipboard as a HTML page"/>
+						<Control Class="CGUICmdMenu" Id="32987" BeginGroup="1" Caption="File &amp;Name" TooltipText="Copy the active document's file name to the clipboard" DescriptionText="Copy the active document's file name to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32988" Caption="&amp;All File Names" TooltipText="Copy the file names of all open documents to the clipboard" DescriptionText="Copy the file names of all open documents to the clipboard"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777221" Style="4194304" Title="Insert">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32962" Caption="Line &amp;After" TooltipText="Insert a new line after the current line" DescriptionText="Insert a new line after the current line"/>
+						<Control Class="CGUICmdMenu" Id="32961" Caption="Line &amp;Before" TooltipText="Insert a new line before the current line" DescriptionText="Insert a new line before the current line"/>
+						<Control Class="CGUICmdMenu" Id="32965" Caption="&amp;Page Break" TooltipText="Insert a page break at start of current line" DescriptionText="Insert a page break at start of current line"/>
+						<Control Class="CGUICmdMenu" Id="32956" BeginGroup="1" Caption="Paste as Bloc&amp;k" TooltipText="Insert the clipboard contents in block mode" DescriptionText="Insert the clipboard contents in block mode"/>
+						<Control Class="CGUICmdMenu" Id="32957" Caption="Paste as L&amp;ines" TooltipText="Insert the clipboard contents in line mode" DescriptionText="Insert the clipboard contents in line mode"/>
+						<Control Class="CGUICmdMenu" Id="32955" Caption="Paste &amp;HTML" TooltipText="Insert HTML from the clipboard" DescriptionText="Insert HTML from the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32776" BeginGroup="1" Caption="&amp;Statistics" TooltipText="Insert statistical information about this document" DescriptionText="Insert statistical information about this document"/>
+						<Control Class="CGUICmdMenu" Id="32774" Caption="File &amp;Name" TooltipText="Insert the file name" DescriptionText="Insert the file name"/>
+						<Control Class="CGUICmdMenu" Id="32794" Caption="&amp;Files..." TooltipText="Insert contents of one or more files at the cursor position" DescriptionText="Insert contents of one or more files at the cursor position"/>
+						<Control Class="CGUICmdMenu" Id="32974" BeginGroup="1" Caption="&amp;Time" TooltipText="Insert the current time" DescriptionText="Insert the current time"/>
+						<Control Class="CGUICmdMenu" Id="32975" Caption="Short &amp;Date" TooltipText="Insert the date in short format" DescriptionText="Insert the date in short format"/>
+						<Control Class="CGUICmdMenu" Id="32976" Caption="&amp;Long Date" TooltipText="Insert the date in long format" DescriptionText="Insert the date in long format"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777222" Style="4194304" Title="Delete">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57632" Caption="&amp;Selection" TooltipText="Erase the next character or the selection" DescriptionText="Erase the next character or the selection"/>
+						<Control Class="CGUICmdMenu" Id="32803" Caption="&amp;Line" TooltipText="Delete the current line" DescriptionText="Delete the current line"/>
+						<Control Class="CGUICmdMenu" Id="32804" Caption="&amp;Word" TooltipText="Delete the current word" DescriptionText="Delete the current word"/>
+						<Control Class="CGUICmdMenu" Id="32979" Caption="&amp;Bookmarked Lines" TooltipText="Delete all lines with bookmarks on them" DescriptionText="Delete all lines with bookmarks on them"/>
+						<Control Class="CGUICmdMenu" Id="57633" Caption="&amp;All" TooltipText="Erase everything" DescriptionText="Erase everything"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777223" Style="4194304" Title="Change Case">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32795" Caption="&amp;Invert Case" TooltipText="Invert the case of the selection, or character after the cursor" DescriptionText="Invert the case of the selection, or character after the cursor"/>
+						<Control Class="CGUICmdMenu" Id="32796" Caption="&amp;Upper Case" TooltipText="Change selection or character after the cursor to upper case" DescriptionText="Change selection or character after the cursor to upper case"/>
+						<Control Class="CGUICmdMenu" Id="32797" Caption="&amp;Lower Case" TooltipText="Change selection or character after the cursor to lower case" DescriptionText="Change selection or character after the cursor to lower case"/>
+						<Control Class="CGUICmdMenu" Id="32773" Caption="&amp;Sentence Case" TooltipText="Make first character of each selected sentence upper case &amp; the rest lower case" DescriptionText="Make first character of each selected sentence upper case &amp; the rest lower case"/>
+						<Control Class="CGUICmdMenu" Id="32798" Caption="&amp;Capitalize" TooltipText="Make first character of each selected word upper case &amp; the rest lower case" DescriptionText="Make first character of each selected word upper case &amp; the rest lower case"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777224" Style="4194304" Title="Transpose">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32789" Caption="Chars" TooltipText="Transpose characters or lines either side of the cursor" DescriptionText="Transpose characters or lines either side of the cursor"/>
+						<Control Class="CGUICmdMenu" Id="32788" Caption="&amp;Words" TooltipText="Transpose the words either side of the cursor" DescriptionText="Transpose the words either side of the cursor"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777225" Style="4194304" Title="Align">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32971" Caption="&amp;Left" TooltipText="Align selected lines to the left margin" DescriptionText="Align selected lines to the left margin"/>
+						<Control Class="CGUICmdMenu" Id="32960" Caption="&amp;Center" TooltipText="Center selected lines in the view" DescriptionText="Center selected lines in the view"/>
+						<Control Class="CGUICmdMenu" Id="32972" Caption="&amp;Right" TooltipText="Align selected lines to the right margin" DescriptionText="Align selected lines to the right margin"/>
+						<Control Class="CGUICmdMenu" Id="32973" Caption="&amp;Justify" TooltipText="Justify text in selected paragraphs to both margins" DescriptionText="Justify text in selected paragraphs to both margins"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777226" Style="4194304" Title="Search">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32806" Caption="&amp;Find..." ShortcutText="F5" TooltipText="Find" DescriptionText="Search for text in the active document"/>
+						<Control Class="CGUICmdMenu" Id="32807" Caption="Find &amp;Next" ShortcutText="Ctrl+F" TooltipText="Find next occurrence of search string" DescriptionText="Find next occurrence of search string"/>
+						<Control Class="CGUICmdMenu" Id="32808" Caption="Find &amp;Previous" ShortcutText="Ctrl+Shift+F" TooltipText="Find previous occurrence of search string" DescriptionText="Find previous occurrence of search string"/>
+						<Control Class="CGUICmdMenu" Id="32813" Caption="Find &amp;In Files..." ShortcutText="Ctrl+F5" TooltipText="Find in Files" DescriptionText="Search for a text pattern in multiple files"/>
+						<Control Class="CGUICmdMenu" Id="33316" Caption="Incrementa&amp;l Find" TooltipText="Activate the Incremental Find toolbar" DescriptionText="Activate the Incremental Find toolbar"/>
+						<Control Class="CGUICmdMenu" Id="32809" BeginGroup="1" Caption="&amp;Replace..." ShortcutText="F8" TooltipText="Replace" DescriptionText="Replace occurrences of search string"/>
+						<Control Class="CGUICmdMenu" Id="32810" Caption="Replace Ne&amp;xt" ShortcutText="Ctrl+F8" TooltipText="Replace next occurrence of search string" DescriptionText="Replace next occurrence of search string"/>
+						<Control Class="CGUICmdMenu" Id="32811" BeginGroup="1" Caption="&amp;Go To..." ShortcutText="Ctrl+G" TooltipText="Go to specified line, column, page, byte offset or bookmark" DescriptionText="Go to specified line, column, page, byte offset or bookmark"/>
+						<Control Class="CGUICmdMenu" Id="32953" BeginGroup="1" Caption="Jump Nex&amp;t" ShortcutText="F4" TooltipText="Jump Next" DescriptionText="Jump to next item in Search Results or Tool Output window"/>
+						<Control Class="CGUICmdMenu" Id="32954" Caption="&amp;Jump Previous" ShortcutText="Shift+F4" TooltipText="Jump Previous" DescriptionText="Jump to previous item in Search Results or Tool Output"/>
+						<Control Class="CGUICmdMenu" Id="32941" BeginGroup="1" Caption="Toggle &amp;Bookmark" ShortcutText="Ctrl+F2" TooltipText="Toggle Bookmark" DescriptionText="Set or clear a bookmark on the current line"/>
+						<Control Class="CGUICmdMenu" Id="32942" Caption="N&amp;ext Bookmark" ShortcutText="F2" TooltipText="Next Bookmark" DescriptionText="Go to the next bookmark"/>
+						<Control Class="CGUICmdMenu" Id="32943" Caption="Pre&amp;vious Bookmark" ShortcutText="Shift+F2" TooltipText="Previous Bookmark" DescriptionText="Go to previous bookmark"/>
+						<Control Class="CGUICmdMenu" Id="32947" Caption="Invert &amp;All Bookmarks" TooltipText="Invert All Bookmarks" DescriptionText="Invert all bookmarks"/>
+						<Control Class="CGUICmdMenu" Id="32944" Caption="&amp;Clear All Bookmarks" ShortcutText="Ctrl+Shift+F2" TooltipText="Clear All Bookmarks" DescriptionText="Clear all bookmarks"/>
+						<Control Class="CGUICmdMenu" Id="32812" BeginGroup="1" Caption="&amp;Match Bracket" ShortcutText="Ctrl+M" TooltipText="Find matching bracket" DescriptionText="Find matching bracket"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777227" Style="4194304" Title="View">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="59393" Caption="&amp;Status Bar" TooltipText="Show or hide the status bar" DescriptionText="Show or hide the status bar"/>
+						<Control Class="CGUICmdMenu" Id="59396" Caption="&amp;Clip Library" ShortcutText="Ctrl+F3" TooltipText="Clip Library" DescriptionText="Clip Library"/>
+						<Control Class="CGUICmdMenu" Id="59397" Caption="&amp;Document Selector" ShortcutText="F11" TooltipText="Document Selector" DescriptionText="Document Selector"/>
+						<Control Class="CGUICmdMenu" Id="59398" Caption="E&amp;xplorer" TooltipText="Explorer" DescriptionText="Explorer"/>
+						<Control Class="CGUICmdMenu" Id="32817" Caption="D&amp;ocument Tabs" TooltipText="Show or hide the tabbed document selector" DescriptionText="Show or hide the tabbed document selector"/>
+						<Control Class="CGUICmdMenu" Id="32818" Caption="&amp;Full Screen" TooltipText="Full Screen" DescriptionText="Toggle full screen view"/>
+						<Control Class="CGUICmdMenu" Id="32949" BeginGroup="1" Caption="S&amp;earch Results" ShortcutText="Shift+F11" TooltipText="Search Results" DescriptionText="Search Results"/>
+						<Control Class="CGUICmdMenu" Id="32950" Caption="Too&amp;l Output" TooltipText="Tool Output" DescriptionText="Tool Output"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="&amp;Toolbars" CommandBarId="16777228"/>
+						<Control Class="CGUICmdMenu" Id="32822" BeginGroup="1" Caption="&amp;Vertical Scroll Bar" TooltipText="Show or hide vertical scroll bar" DescriptionText="Show or hide vertical scroll bar"/>
+						<Control Class="CGUICmdMenu" Id="32821" Caption="&amp;Horizontal Scroll Bar" TooltipText="Show or hide horizontal scroll bar" DescriptionText="Show or hide horizontal scroll bar"/>
+						<Control Class="CGUICmdMenu" Id="32945" Caption="&amp;Line Numbers" TooltipText="Line Numbers" DescriptionText="Show or hide line numbers"/>
+						<Control Class="CGUICmdMenu" Id="32940" Caption="V&amp;isible Spaces" TooltipText="Visible »·¶" DescriptionText="Show or hide visible spaces"/>
+						<Control Class="CGUICmdMenu" Id="33200" BeginGroup="1" Caption="In Web &amp;Browser" TooltipText="View in Web Browser" DescriptionText="View the document in the default web browser"/>
+						<Control Class="CGUICmdMenu" Id="32946" BeginGroup="1" Caption="Document &amp;Properties" ShortcutText="Alt+Enter" TooltipText="Configure properties for this document" DescriptionText="Configure properties for this document"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777228" Style="4194304" Title="Toolbars">
+					<Controls>
+						<Control Class="CXTPControlToolbars" Id="59392" Caption="Toolbar"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777229" Style="4194304" Title="Tools">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32848" Caption="&amp;Compare Files..." TooltipText="Compare Files" DescriptionText="Find differences between two files"/>
+						<Control Class="CGUICmdMenu" Id="33203" Caption="S&amp;pelling..." ShortcutText="F7" TooltipText="Check Spelling" DescriptionText="Check the spelling in this document"/>
+						<Control Class="CGUICmdMenu" Id="32852" Caption="&amp;Sort..." TooltipText="Sort" DescriptionText="Sort lines in the active document"/>
+						<Control Class="CGUICmdMenu" Id="32853" Caption="Con&amp;vert to DOS" TooltipText="Convert this document between DOS and ANSI code sets" DescriptionText="Convert this document between DOS and ANSI code sets"/>
+						<Control Class="CGUICmdMenu" Id="32849" Caption="Windows &amp;Explorer" ShortcutText="Alt+F3" TooltipText="Run Explorer or File Manager" DescriptionText="Run Explorer or File Manager"/>
+						<Control Class="CGUICmdWildEdit" Id="32847" HideFlags="1" Caption="&amp;WildEdit"/>
+						<Control Class="CGUICmdMenu" Id="32851" BeginGroup="1" Caption="S&amp;top" ShortcutText="Ctrl+Break" TooltipText="Cancel the tool writing to the Tool Results window" DescriptionText="Cancel the tool writing to the Tool Results window"/>
+						<Control Class="CGUICmdMenu" Id="32850" Caption="&amp;Run..." TooltipText="Start another application" DescriptionText="Start another application"/>
+						<Control Class="CGUICmdHTMLValidator" Id="32845" BeginGroup="1" HideFlags="1" Caption="&amp;HTML Validator" ShortcutText="Ctrl+0"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="E&amp;xternal Tools" CommandBarId="16777230"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777230" Style="4194304" Title="External Tools">
+					<Controls>
+						<Control Class="CGUICmdUserTools" Id="32854" Flags="8" HideFlags="1" Caption="User Tool 1" TooltipText="Tool 1" DescriptionText="Start this tool"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777231" Style="4194304" Title="Macros">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="33104" Caption="&amp;Record" ShortcutText="Ctrl+Shift+R" TooltipText="Record or stop recording a keystroke macro" DescriptionText="Record or stop recording a keystroke macro"/>
+						<Control Class="CGUICmdMenu" Id="33105" Caption="Paus&amp;e" TooltipText="Pause/Resume the keystroke macro recorder" DescriptionText="Pause/Resume the keystroke macro recorder"/>
+						<Control Class="CGUICmdMenu" Id="33106" Caption="&amp;Playback" TooltipText="Playback the scratch macro" DescriptionText="Playback the scratch macro"/>
+						<Control Class="CGUICmdMenu" Id="33107" Caption="&amp;Multi-play..." ShortcutText="Ctrl+F7" TooltipText="Playback a selected macro multiple times" DescriptionText="Playback a selected macro multiple times"/>
+						<Control Class="CGUICmdMenu" Id="33108" Caption="&amp;Save..." TooltipText="Save the scratch macro" DescriptionText="Save the scratch macro"/>
+						<Control Class="CGUICmdUserMacros" Id="33109" BeginGroup="1" Flags="8" Caption="User Macro 1" TooltipText="Play back this macro" DescriptionText="Play back this macro"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777232" Style="4194304" Title="Configure">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32820" Caption="&amp;Block Select Mode" TooltipText="Toggle block/line selection mode for all views" DescriptionText="Toggle block/line selection mode for all views"/>
+						<Control Class="CGUICmdMenu" Id="32819" Caption="&amp;Word Wrap" TooltipText="Word Wrap" DescriptionText="Toggle word-wrap mode"/>
+						<Control Class="CGUICmdMenu" Id="32814" Caption="&amp;Read Only" TooltipText="Toggle read-only state" DescriptionText="Toggle read-only state"/>
+						<Control Class="CGUICmdMenu" Id="33202" Caption="&amp;Synchronize Scrolling" TooltipText="Synchronize scrolling in all views" DescriptionText="Synchronize scrolling in all views"/>
+						<Control Class="CGUICmdMenu" Id="33204" Caption="Enable &amp;Undo" TooltipText="Enable or disable the ability to undo edits" DescriptionText="Enable or disable the ability to undo edits"/>
+						<Control Class="CGUICmdMenu" Id="33205" BeginGroup="1" Caption="New Document &amp;Class..." TooltipText="Create a new document class" DescriptionText="Create a new document class"/>
+						<Control Class="CGUICmdMenu" Id="32815" BeginGroup="1" Caption="&amp;Preferences..." TooltipText="Configure your preferences" DescriptionText="Configure your preferences"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777233" Style="4194304" Title="Window">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57653" Caption="&amp;Split" TooltipText="Split" DescriptionText="Split the active window into panes"/>
+						<Control Class="CGUICmdArrangeWindows" Id="57650" BeginGroup="1" HideFlags="1" Caption="Arrange" TooltipText="Cascade" DescriptionText="Arrange windows so they overlap"/>
+						<Control Class="CGUICmdTabGroups" Id="35002" BeginGroup="1" HideFlags="1" Caption="Tab grouping"/>
+						<Control Class="CGUICmdMDIWindowList" Id="33000" BeginGroup="1" HideFlags="1" Caption="Window list"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777234" Style="4194304" Title="Help">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57667" Caption="&amp;Help Topics" TooltipText="List TextPad help topics" DescriptionText="List TextPad help topics"/>
+						<Control Class="CGUICmdMenu" Id="33207" BeginGroup="1" Caption="&amp;Technical Support" TooltipText="Get support information for TextPad" DescriptionText="Get support information for TextPad"/>
+						<Control Class="CGUICmdMenu" Id="33209" Caption="Frequently Asked &amp;Questions" TooltipText="Get answers to frequently asked questions" DescriptionText="Get answers to frequently asked questions"/>
+						<Control Class="CGUICmdMenu" Id="33212" Caption="TextPad on the &amp;Web" TooltipText="Open http://www.textpad.com/" DescriptionText="Open http://www.textpad.com/"/>
+						<Control Class="CGUICmdMenu" Id="33206" Caption="Update &amp;License..." TooltipText="Enter your license details to register TextPad" DescriptionText="Enter your license details to register TextPad"/>
+						<Control Class="CGUICmdMenu" Id="33208" Caption="&amp;Ordering Information" TooltipText="Find out how to purchase TextPad" DescriptionText="Find out how to purchase TextPad"/>
+						<Control Class="CGUICmdMenu" Id="33210" BeginGroup="1" Caption="Tip of the &amp;Day" TooltipText="Display a tip of the day" DescriptionText="Display a tip of the day"/>
+						<Control Class="CGUICmdMenu" Id="57664" BeginGroup="1" Caption="&amp;About TextPad..." TooltipText="Display program information, version number and copyright" DescriptionText="Display program information, version number and copyright"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777235" Style="4194304" Title="File">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57600" Caption="&amp;New" TooltipText="New Document" DescriptionText="Create a new document"/>
+						<Control Class="CGUICmdMenu" Id="57601" Caption="&amp;Open..." TooltipText="Open" DescriptionText="Open an existing document"/>
+						<Control Class="CGUICmdMenu" Id="57602" Caption="&amp;Close" TooltipText="Close" DescriptionText="Close the active document"/>
+						<Control Class="CGUICmdMenu" Id="32785" Caption="Clos&amp;e All" TooltipText="Close all documents" DescriptionText="Close all documents"/>
+						<Control Class="CGUICmdMenu" Id="57603" BeginGroup="1" Caption="&amp;Save" TooltipText="Save" DescriptionText="Save the active document"/>
+						<Control Class="CGUICmdMenu" Id="57604" Caption="Save &amp;As..." TooltipText="Save As" DescriptionText="Save the active document with a new name"/>
+						<Control Class="CGUICmdMenu" Id="32786" Caption="Save A&amp;ll" TooltipText="Save All" DescriptionText="Save all changed documents"/>
+						<Control Class="CGUICmdMenu" Id="32772" Caption="&amp;Revert" TooltipText="Revert" DescriptionText="Revert the current document to the last saved version"/>
+						<Control Class="CGUICmdMenu" Id="32775" Caption="Rena&amp;me..." TooltipText="Rename" DescriptionText="Rename or move the current document's file"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="&amp;Workspace" CommandBarId="16777236"/>
+						<Control Class="CGUICmdMenu" Id="32768" BeginGroup="1" Caption="Mana&amp;ge Files..." TooltipText="Manage Files" DescriptionText="Copy, rename, delete or touch files"/>
+						<Control Class="CGUICmdMenu" Id="57607" BeginGroup="1" Caption="&amp;Print..." TooltipText="Print" DescriptionText="Print the active document"/>
+						<Control Class="CGUICmdMenu" Id="57609" Caption="Print Pre&amp;view" TooltipText="Print Preview" DescriptionText="Display full pages as they will be printed"/>
+						<Control Class="CGUICmdMenu" Id="57605" Caption="Page Set&amp;up..." TooltipText="Change the printed page setup for the active document class" DescriptionText="Change the printed page setup for the active document class"/>
+						<Control Class="CGUICmdMenu" Id="57612" BeginGroup="1" Caption="Sen&amp;d..." TooltipText="Send Mail" DescriptionText="Send the active document through electronic mail"/>
+						<Control Class="CGUICmdFileMRU" Id="57616" BeginGroup="1" Caption="Recent File" TooltipText="Open this document" DescriptionText="Open this document"/>
+						<Control Class="CGUICmdMenu" Id="57665" BeginGroup="1" Caption="E&amp;xit" TooltipText="Quit the application; prompts to save files" DescriptionText="Quit the application; prompts to save files"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777236" Style="4194304" Title="Workspace">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32780" Caption="&amp;Open..." TooltipText="Open Workspace" DescriptionText="Open a workspace"/>
+						<Control Class="CGUICmdMenu" Id="32781" Caption="&amp;Save" TooltipText="Save Workspace" DescriptionText="Save the workspace"/>
+						<Control Class="CGUICmdMenu" Id="32783" Caption="Save &amp;As..." TooltipText="Save Workspace As" DescriptionText="Save the workspace with a new name"/>
+						<Control Class="CGUICmdMenu" Id="32782" Caption="&amp;Close" TooltipText="Close Workspace" DescriptionText="Close the workspace"/>
+						<Control Class="CGUICmdWorkspaceMRU" Id="33232" BeginGroup="1" Caption="Recent Workspace" TooltipText="Open this workspace" DescriptionText="Open this workspace"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777237" Style="4194304" Title="Edit">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57643" Caption="&amp;Undo" TooltipText="Undo" DescriptionText="Undo the last action"/>
+						<Control Class="CGUICmdMenu" Id="57644" Caption="&amp;Redo" TooltipText="Redo" DescriptionText="Redo the previously undone action"/>
+						<Control Class="CGUICmdMenu" Id="57635" BeginGroup="1" Caption="Cu&amp;t" TooltipText="Cut" DescriptionText="Cut the selection to the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="57634" Caption="&amp;Copy" TooltipText="Copy" DescriptionText="Copy the selection to the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="57637" Caption="&amp;Paste" TooltipText="Paste" DescriptionText="Insert Clipboard contents"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="Cut Ot&amp;her" CommandBarId="16777238"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="Cop&amp;y Other" CommandBarId="16777239"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Insert" CommandBarId="16777240"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="De&amp;lete" CommandBarId="16777241"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="Chan&amp;ge Case" CommandBarId="16777242"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="Transp&amp;ose" CommandBarId="16777243"/>
+						<Control Class="CXTPControlPopup" Type="2" Caption="&amp;Align" CommandBarId="16777244"/>
+						<Control Class="CGUICmdMenu" Id="32791" BeginGroup="1" Caption="Increase I&amp;ndent" TooltipText="Increase Indent" DescriptionText="Increase indentation of selected lines by the indent size setting"/>
+						<Control Class="CGUICmdMenu" Id="32790" Caption="Reduce In&amp;dent" TooltipText="Reduce Indent" DescriptionText="Reduce indentation of selected lines by the indent size setting"/>
+						<Control Class="CGUICmdEditJoin" Id="32967" BeginGroup="1" Caption="&amp;Join Lines" TooltipText="Append next line to current line, or join all selected lines" DescriptionText="Append next line to current line, or join all selected lines"/>
+						<Control Class="CGUICmdEditSplit" Id="32964" Caption="Split &amp;Wrapped Lines" TooltipText="Split lines where they wrap at the right margin" DescriptionText="Split lines where they wrap at the right margin"/>
+						<Control Class="CGUICmdMenu" Id="32966" Caption="Refor&amp;mat" TooltipText="Reformat" DescriptionText="Adjust line lengths to the right margin"/>
+						<Control Class="CGUICmdMenu" Id="32982" BeginGroup="1" Caption="&amp;Fill Block..." TooltipText="Fill selected block with specified character(s)" DescriptionText="Fill selected block with specified character(s)"/>
+						<Control Class="CGUICmdMenu" Id="57642" BeginGroup="1" Caption="&amp;Select All" TooltipText="Select the entire document" DescriptionText="Select the entire document"/>
+						<Control Class="CGUICmdMenu" Id="32802" Caption="Mar&amp;k Clean" TooltipText="Mark the active document as unmodified" DescriptionText="Mark the active document as unmodified"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777238" Style="4194304" Title="Cut Other">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32792" Caption="S&amp;election Append" TooltipText="Cut selection and append to the clipboard" DescriptionText="Cut selection and append to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32800" Caption="&amp;Line" TooltipText="Cut the current line and put it on the Clipboard" DescriptionText="Cut the current line and put it on the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32801" Caption="L&amp;ine Append" TooltipText="Cut the current line and append it to the Clipboard" DescriptionText="Cut the current line and append it to the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32958" Caption="&amp;Word" TooltipText="Cut the word under the cursor and put it on the Clipboard" DescriptionText="Cut the word under the cursor and put it on the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32959" Caption="W&amp;ord Append" TooltipText="Cut the word under the cursor and append it to the Clipboard" DescriptionText="Cut the word under the cursor and append it to the Clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32980" Caption="&amp;Bookmarked lines" TooltipText="Cut to clipboard all lines with bookmarks on them" DescriptionText="Cut to clipboard all lines with bookmarks on them"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777239" Style="4194304" Title="Copy Other">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32793" Caption="S&amp;election Append" TooltipText="Copy selection and append to the clipboard" DescriptionText="Copy selection and append to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32983" Caption="&amp;Line" TooltipText="Copy the current line to the clipboard" DescriptionText="Copy the current line to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32984" Caption="L&amp;ine Append" TooltipText="Copy the current line and append it to to the clipboard" DescriptionText="Copy the current line and append it to to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32985" Caption="&amp;Word" TooltipText="Copy the current word to the clipboard" DescriptionText="Copy the current word to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32986" Caption="W&amp;ord Append" TooltipText="Copy the current word and append it to to the clipboard" DescriptionText="Copy the current word and append it to to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32981" Caption="&amp;Bookmarked lines" TooltipText="Copy to clipboard all lines with bookmarks on them" DescriptionText="Copy to clipboard all lines with bookmarks on them"/>
+						<Control Class="CGUICmdMenu" Id="32989" Caption="As a &amp;HTML page" TooltipText="Copy selected text to the clipboard as a HTML page" DescriptionText="Copy selected text to the clipboard as a HTML page"/>
+						<Control Class="CGUICmdMenu" Id="32987" BeginGroup="1" Caption="File &amp;Name" TooltipText="Copy the active document's file name to the clipboard" DescriptionText="Copy the active document's file name to the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32988" Caption="&amp;All File Names" TooltipText="Copy the file names of all open documents to the clipboard" DescriptionText="Copy the file names of all open documents to the clipboard"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777240" Style="4194304" Title="Insert">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32962" Caption="Line &amp;After" TooltipText="Insert a new line after the current line" DescriptionText="Insert a new line after the current line"/>
+						<Control Class="CGUICmdMenu" Id="32961" Caption="Line &amp;Before" TooltipText="Insert a new line before the current line" DescriptionText="Insert a new line before the current line"/>
+						<Control Class="CGUICmdMenu" Id="32965" Caption="&amp;Page Break" TooltipText="Insert a page break at start of current line" DescriptionText="Insert a page break at start of current line"/>
+						<Control Class="CGUICmdMenu" Id="32956" BeginGroup="1" Caption="Paste as Bloc&amp;k" TooltipText="Insert the clipboard contents in block mode" DescriptionText="Insert the clipboard contents in block mode"/>
+						<Control Class="CGUICmdMenu" Id="32957" Caption="Paste as L&amp;ines" TooltipText="Insert the clipboard contents in line mode" DescriptionText="Insert the clipboard contents in line mode"/>
+						<Control Class="CGUICmdMenu" Id="32955" Caption="Paste &amp;HTML" TooltipText="Insert HTML from the clipboard" DescriptionText="Insert HTML from the clipboard"/>
+						<Control Class="CGUICmdMenu" Id="32776" BeginGroup="1" Caption="&amp;Statistics" TooltipText="Insert statistical information about this document" DescriptionText="Insert statistical information about this document"/>
+						<Control Class="CGUICmdMenu" Id="32774" Caption="File &amp;Name" TooltipText="Insert the file name" DescriptionText="Insert the file name"/>
+						<Control Class="CGUICmdMenu" Id="32794" Caption="&amp;Files..." TooltipText="Insert contents of one or more files at the cursor position" DescriptionText="Insert contents of one or more files at the cursor position"/>
+						<Control Class="CGUICmdMenu" Id="32974" BeginGroup="1" Caption="&amp;Time" TooltipText="Insert the current time" DescriptionText="Insert the current time"/>
+						<Control Class="CGUICmdMenu" Id="32975" Caption="Short &amp;Date" TooltipText="Insert the date in short format" DescriptionText="Insert the date in short format"/>
+						<Control Class="CGUICmdMenu" Id="32976" Caption="&amp;Long Date" TooltipText="Insert the date in long format" DescriptionText="Insert the date in long format"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777241" Style="4194304" Title="Delete">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57632" Caption="&amp;Selection" TooltipText="Erase the next character or the selection" DescriptionText="Erase the next character or the selection"/>
+						<Control Class="CGUICmdMenu" Id="32803" Caption="&amp;Line" TooltipText="Delete the current line" DescriptionText="Delete the current line"/>
+						<Control Class="CGUICmdMenu" Id="32804" Caption="&amp;Word" TooltipText="Delete the current word" DescriptionText="Delete the current word"/>
+						<Control Class="CGUICmdMenu" Id="32979" Caption="&amp;Bookmarked Lines" TooltipText="Delete all lines with bookmarks on them" DescriptionText="Delete all lines with bookmarks on them"/>
+						<Control Class="CGUICmdMenu" Id="57633" Caption="&amp;All" TooltipText="Erase everything" DescriptionText="Erase everything"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777242" Style="4194304" Title="Change Case">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32795" Caption="&amp;Invert Case" TooltipText="Invert the case of the selection, or character after the cursor" DescriptionText="Invert the case of the selection, or character after the cursor"/>
+						<Control Class="CGUICmdMenu" Id="32796" Caption="&amp;Upper Case" TooltipText="Change selection or character after the cursor to upper case" DescriptionText="Change selection or character after the cursor to upper case"/>
+						<Control Class="CGUICmdMenu" Id="32797" Caption="&amp;Lower Case" TooltipText="Change selection or character after the cursor to lower case" DescriptionText="Change selection or character after the cursor to lower case"/>
+						<Control Class="CGUICmdMenu" Id="32773" Caption="&amp;Sentence Case" TooltipText="Make first character of each selected sentence upper case &amp; the rest lower case" DescriptionText="Make first character of each selected sentence upper case &amp; the rest lower case"/>
+						<Control Class="CGUICmdMenu" Id="32798" Caption="&amp;Capitalize" TooltipText="Make first character of each selected word upper case &amp; the rest lower case" DescriptionText="Make first character of each selected word upper case &amp; the rest lower case"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777243" Style="4194304" Title="Transpose">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32789" Caption="Chars" TooltipText="Transpose characters or lines either side of the cursor" DescriptionText="Transpose characters or lines either side of the cursor"/>
+						<Control Class="CGUICmdMenu" Id="32788" Caption="&amp;Words" TooltipText="Transpose the words either side of the cursor" DescriptionText="Transpose the words either side of the cursor"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777244" Style="4194304" Title="Align">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32971" Caption="&amp;Left" TooltipText="Align selected lines to the left margin" DescriptionText="Align selected lines to the left margin"/>
+						<Control Class="CGUICmdMenu" Id="32960" Caption="&amp;Center" TooltipText="Center selected lines in the view" DescriptionText="Center selected lines in the view"/>
+						<Control Class="CGUICmdMenu" Id="32972" Caption="&amp;Right" TooltipText="Align selected lines to the right margin" DescriptionText="Align selected lines to the right margin"/>
+						<Control Class="CGUICmdMenu" Id="32973" Caption="&amp;Justify" TooltipText="Justify text in selected paragraphs to both margins" DescriptionText="Justify text in selected paragraphs to both margins"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777245" Style="4194304" Title="Search">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32806" Caption="&amp;Find..." TooltipText="Find" DescriptionText="Search for text in the active document"/>
+						<Control Class="CGUICmdMenu" Id="32807" Caption="Find &amp;Next" TooltipText="Find next occurrence of search string" DescriptionText="Find next occurrence of search string"/>
+						<Control Class="CGUICmdMenu" Id="32808" Caption="Find &amp;Previous" TooltipText="Find previous occurrence of search string" DescriptionText="Find previous occurrence of search string"/>
+						<Control Class="CGUICmdMenu" Id="32813" Caption="Find &amp;In Files..." TooltipText="Find in Files" DescriptionText="Search for a text pattern in multiple files"/>
+						<Control Class="CGUICmdMenu" Id="33316" Caption="Incrementa&amp;l Find" TooltipText="Activate the Incremental Find toolbar" DescriptionText="Activate the Incremental Find toolbar"/>
+						<Control Class="CGUICmdMenu" Id="32809" BeginGroup="1" Caption="&amp;Replace..." TooltipText="Replace" DescriptionText="Replace occurrences of search string"/>
+						<Control Class="CGUICmdMenu" Id="32810" Caption="Replace Ne&amp;xt" TooltipText="Replace next occurrence of search string" DescriptionText="Replace next occurrence of search string"/>
+						<Control Class="CGUICmdMenu" Id="32811" BeginGroup="1" Caption="&amp;Go To..." TooltipText="Go to specified line, column, page, byte offset or bookmark" DescriptionText="Go to specified line, column, page, byte offset or bookmark"/>
+						<Control Class="CGUICmdMenu" Id="32953" BeginGroup="1" Caption="Jump Nex&amp;t" TooltipText="Jump Next" DescriptionText="Jump to next item in Search Results or Tool Output window"/>
+						<Control Class="CGUICmdMenu" Id="32954" Caption="&amp;Jump Previous" TooltipText="Jump Previous" DescriptionText="Jump to previous item in Search Results or Tool Output"/>
+						<Control Class="CGUICmdMenu" Id="32941" BeginGroup="1" Caption="Toggle &amp;Bookmark" TooltipText="Toggle Bookmark" DescriptionText="Set or clear a bookmark on the current line"/>
+						<Control Class="CGUICmdMenu" Id="32942" Caption="N&amp;ext Bookmark" TooltipText="Next Bookmark" DescriptionText="Go to the next bookmark"/>
+						<Control Class="CGUICmdMenu" Id="32943" Caption="Pre&amp;vious Bookmark" TooltipText="Previous Bookmark" DescriptionText="Go to previous bookmark"/>
+						<Control Class="CGUICmdMenu" Id="32947" Caption="Invert &amp;All Bookmarks" TooltipText="Invert All Bookmarks" DescriptionText="Invert all bookmarks"/>
+						<Control Class="CGUICmdMenu" Id="32944" Caption="&amp;Clear All Bookmarks" TooltipText="Clear All Bookmarks" DescriptionText="Clear all bookmarks"/>
+						<Control Class="CGUICmdMenu" Id="32812" BeginGroup="1" Caption="&amp;Match Bracket" TooltipText="Find matching bracket" DescriptionText="Find matching bracket"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777246" Style="4194304" Title="View">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="59393" Caption="&amp;Status Bar" TooltipText="Show or hide the status bar" DescriptionText="Show or hide the status bar"/>
+						<Control Class="CGUICmdMenu" Id="59396" Caption="&amp;Clip Library" TooltipText="Clip Library" DescriptionText="Clip Library"/>
+						<Control Class="CGUICmdMenu" Id="59397" Caption="&amp;Document Selector" TooltipText="Document Selector" DescriptionText="Document Selector"/>
+						<Control Class="CGUICmdMenu" Id="59398" Caption="E&amp;xplorer" TooltipText="Explorer" DescriptionText="Explorer"/>
+						<Control Class="CGUICmdMenu" Id="32817" Caption="D&amp;ocument Tabs" TooltipText="Show or hide the tabbed document selector" DescriptionText="Show or hide the tabbed document selector"/>
+						<Control Class="CGUICmdMenu" Id="32818" Caption="&amp;Full Screen" TooltipText="Full Screen" DescriptionText="Toggle full screen view"/>
+						<Control Class="CGUICmdMenu" Id="32949" BeginGroup="1" Caption="S&amp;earch Results" TooltipText="Search Results" DescriptionText="Search Results"/>
+						<Control Class="CGUICmdMenu" Id="32950" Caption="Too&amp;l Output" TooltipText="Tool Output" DescriptionText="Tool Output"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="&amp;Toolbars" CommandBarId="16777247"/>
+						<Control Class="CGUICmdMenu" Id="32822" BeginGroup="1" Caption="&amp;Vertical Scroll Bar" TooltipText="Show or hide vertical scroll bar" DescriptionText="Show or hide vertical scroll bar"/>
+						<Control Class="CGUICmdMenu" Id="32821" Caption="&amp;Horizontal Scroll Bar" TooltipText="Show or hide horizontal scroll bar" DescriptionText="Show or hide horizontal scroll bar"/>
+						<Control Class="CGUICmdMenu" Id="32945" Caption="&amp;Line Numbers" TooltipText="Line Numbers" DescriptionText="Show or hide line numbers"/>
+						<Control Class="CGUICmdMenu" Id="32940" Caption="V&amp;isible Spaces" TooltipText="Visible »·¶" DescriptionText="Show or hide visible spaces"/>
+						<Control Class="CGUICmdMenu" Id="33200" BeginGroup="1" Caption="In Web &amp;Browser" TooltipText="View in Web Browser" DescriptionText="View the document in the default web browser"/>
+						<Control Class="CGUICmdMenu" Id="32946" BeginGroup="1" Caption="Document &amp;Properties" TooltipText="Configure properties for this document" DescriptionText="Configure properties for this document"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777247" Style="4194304" Title="Toolbars">
+					<Controls>
+						<Control Class="CXTPControlToolbars" Id="59392" Caption="Toolbar"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777248" Style="4194304" Title="Tools">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32848" Caption="&amp;Compare Files..." TooltipText="Compare Files" DescriptionText="Find differences between two files"/>
+						<Control Class="CGUICmdMenu" Id="33203" Caption="S&amp;pelling..." TooltipText="Check Spelling" DescriptionText="Check the spelling in this document"/>
+						<Control Class="CGUICmdMenu" Id="32852" Caption="&amp;Sort..." TooltipText="Sort" DescriptionText="Sort lines in the active document"/>
+						<Control Class="CGUICmdMenu" Id="32853" Caption="Con&amp;vert" TooltipText="Convert this document between DOS and ANSI code sets" DescriptionText="Convert this document between DOS and ANSI code sets"/>
+						<Control Class="CGUICmdMenu" Id="32849" Caption="Windows &amp;Explorer" TooltipText="Run Explorer or File Manager" DescriptionText="Run Explorer or File Manager"/>
+						<Control Class="CGUICmdWildEdit" Id="32847" Caption="&amp;WildEdit"/>
+						<Control Class="CGUICmdMenu" Id="32851" BeginGroup="1" Caption="S&amp;top" TooltipText="Cancel the tool writing to the Tool Results window" DescriptionText="Cancel the tool writing to the Tool Results window"/>
+						<Control Class="CGUICmdMenu" Id="32850" Caption="&amp;Run..." TooltipText="Start another application" DescriptionText="Start another application"/>
+						<Control Class="CGUICmdHTMLValidator" Id="32845" BeginGroup="1" Caption="&amp;HTML Validator"/>
+						<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="E&amp;xternal Tools" CommandBarId="16777249"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777249" Style="4194304" Title="External Tools">
+					<Controls>
+						<Control Class="CGUICmdUserTools" Id="32854" Caption="User Tool 1" TooltipText="Tool 1" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32855" Caption="User Tool 2" TooltipText="Tool 2" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32856" Caption="User Tool 3" TooltipText="Tool 3" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32857" Caption="User Tool 4" TooltipText="Tool 4" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32858" Caption="User Tool 5" TooltipText="Tool 5" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32859" Caption="User Tool 6" TooltipText="Tool 6" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32860" Caption="User Tool 7" TooltipText="Tool 7" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32861" Caption="User Tool 8" TooltipText="Tool 8" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32862" Caption="User Tool 9" TooltipText="Tool 9" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32863" Caption="User Tool 10" TooltipText="Tool 10" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32864" Caption="User Tool 11" TooltipText="Tool 11" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32865" Caption="User Tool 12" TooltipText="Tool 12" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32866" Caption="User Tool 13" TooltipText="Tool 13" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32867" Caption="User Tool 14" TooltipText="Tool 14" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32868" Caption="User Tool 15" TooltipText="Tool 15" DescriptionText="Start this tool"/>
+						<Control Class="CGUICmdMenu" Id="32869" Caption="User Tool 16" TooltipText="Tool 16" DescriptionText="Start this tool"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777250" Style="4194304" Title="Macros">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="33104" Caption="&amp;Record" TooltipText="Record or stop recording a keystroke macro" DescriptionText="Record or stop recording a keystroke macro"/>
+						<Control Class="CGUICmdMenu" Id="33105" Caption="Paus&amp;e" TooltipText="Pause/Resume the keystroke macro recorder" DescriptionText="Pause/Resume the keystroke macro recorder"/>
+						<Control Class="CGUICmdMenu" Id="33106" Caption="&amp;Playback" TooltipText="Playback the scratch macro" DescriptionText="Playback the scratch macro"/>
+						<Control Class="CGUICmdMenu" Id="33107" Caption="&amp;Multi-play..." TooltipText="Playback a selected macro multiple times" DescriptionText="Playback a selected macro multiple times"/>
+						<Control Class="CGUICmdMenu" Id="33108" Caption="&amp;Save..." TooltipText="Save the scratch macro" DescriptionText="Save the scratch macro"/>
+						<Control Class="CGUICmdUserMacros" Id="33109" BeginGroup="1" Caption="User Macro 1" TooltipText="Play back this macro" DescriptionText="Play back this macro"/>
+						<Control Class="CGUICmdMenu" Id="33110" Caption="User Macro 2"/>
+						<Control Class="CGUICmdMenu" Id="33111" Caption="User Macro 3"/>
+						<Control Class="CGUICmdMenu" Id="33112" Caption="User Macro 4"/>
+						<Control Class="CGUICmdMenu" Id="33113" Caption="User Macro 5"/>
+						<Control Class="CGUICmdMenu" Id="33114" Caption="User Macro 6"/>
+						<Control Class="CGUICmdMenu" Id="33115" Caption="User Macro 7"/>
+						<Control Class="CGUICmdMenu" Id="33116" Caption="User Macro 8"/>
+						<Control Class="CGUICmdMenu" Id="33117" Caption="User Macro 9"/>
+						<Control Class="CGUICmdMenu" Id="33118" Caption="User Macro 10"/>
+						<Control Class="CGUICmdMenu" Id="33119" Caption="User Macro 11"/>
+						<Control Class="CGUICmdMenu" Id="33120" Caption="User Macro 12"/>
+						<Control Class="CGUICmdMenu" Id="33121" Caption="User Macro 13"/>
+						<Control Class="CGUICmdMenu" Id="33122" Caption="User Macro 14"/>
+						<Control Class="CGUICmdMenu" Id="33123" Caption="User Macro 15"/>
+						<Control Class="CGUICmdMenu" Id="33124" Caption="User Macro 16"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777251" Style="4194304" Title="Configure">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="32820" Caption="&amp;Block Select Mode" TooltipText="Toggle block/line selection mode for all views" DescriptionText="Toggle block/line selection mode for all views"/>
+						<Control Class="CGUICmdMenu" Id="32819" Caption="&amp;Word Wrap" TooltipText="Word Wrap" DescriptionText="Toggle word-wrap mode"/>
+						<Control Class="CGUICmdMenu" Id="32814" Caption="&amp;Read Only" TooltipText="Toggle read-only state" DescriptionText="Toggle read-only state"/>
+						<Control Class="CGUICmdMenu" Id="33202" Caption="&amp;Synchronize Scrolling" TooltipText="Synchronize scrolling in all views" DescriptionText="Synchronize scrolling in all views"/>
+						<Control Class="CGUICmdMenu" Id="33204" Caption="Enable &amp;Undo" TooltipText="Enable or disable the ability to undo edits" DescriptionText="Enable or disable the ability to undo edits"/>
+						<Control Class="CGUICmdMenu" Id="33205" BeginGroup="1" Caption="New Document &amp;Class..." TooltipText="Create a new document class" DescriptionText="Create a new document class"/>
+						<Control Class="CGUICmdMenu" Id="32815" BeginGroup="1" Caption="&amp;Preferences..." TooltipText="Configure your preferences" DescriptionText="Configure your preferences"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777252" Style="4194304" Title="Window">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57653" Caption="&amp;Split" TooltipText="Split" DescriptionText="Split the active window into panes"/>
+						<Control Class="CGUICmdArrangeWindows" Id="57650" BeginGroup="1" Caption="Arrange" TooltipText="Cascade" DescriptionText="Arrange windows so they overlap"/>
+						<Control Class="CGUICmdTabGroups" Id="35002" BeginGroup="1" Caption="Tab grouping"/>
+						<Control Class="CGUICmdMDIWindowList" Id="33000" BeginGroup="1" Caption="Window list"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777253" Style="4194304" Title="Help">
+					<Controls>
+						<Control Class="CGUICmdMenu" Id="57667" Caption="&amp;Help Topics" TooltipText="List TextPad help topics" DescriptionText="List TextPad help topics"/>
+						<Control Class="CGUICmdMenu" Id="33207" BeginGroup="1" Caption="&amp;Technical Support" TooltipText="Get support information for TextPad" DescriptionText="Get support information for TextPad"/>
+						<Control Class="CGUICmdMenu" Id="33209" Caption="Frequently Asked &amp;Questions" TooltipText="Get answers to frequently asked questions" DescriptionText="Get answers to frequently asked questions"/>
+						<Control Class="CGUICmdMenu" Id="33212" Caption="TextPad on the &amp;Web" TooltipText="Open http://www.textpad.com/" DescriptionText="Open http://www.textpad.com/"/>
+						<Control Class="CGUICmdMenu" Id="33206" Caption="Update &amp;License..." TooltipText="Enter your license details to register TextPad" DescriptionText="Enter your license details to register TextPad"/>
+						<Control Class="CGUICmdMenu" Id="33208" Caption="&amp;Ordering Information" TooltipText="Find out how to purchase TextPad" DescriptionText="Find out how to purchase TextPad"/>
+						<Control Class="CGUICmdMenu" Id="33210" BeginGroup="1" Caption="Tip of the &amp;Day" TooltipText="Display a tip of the day" DescriptionText="Display a tip of the day"/>
+						<Control Class="CGUICmdMenu" Id="57664" BeginGroup="1" Caption="&amp;About TextPad..." TooltipText="Display program information, version number and copyright" DescriptionText="Display program information, version number and copyright"/>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPToolBar" BarID="551" Flags="63" Style="4194304" Title="Macros" MRUWidth="32767">
+					<Controls OriginalControls="1">
+						<Control Class="CXTPControlButton" Id="688" Caption="Recorder On/Off" TooltipText="Recorder On/Off" DescriptionText="Record a keystroke macro"/>
+						<Control Class="CXTPControlButton" Id="689" Caption="Pause Recorder" TooltipText="Pause Recorder" DescriptionText="Pause the keystroke macro recorder"/>
+						<Control Class="CXTPControlButton" Id="690" Caption="Playback" TooltipText="Playback" DescriptionText="Playback a macro"/>
+						<Control Class="CXTPControlButton" Id="33109" BeginGroup="1" Caption="Play back this macro" TooltipText="Play back this macro" DescriptionText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33110" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33111" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33112" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33113" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33114" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33115" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33116" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33117" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33118" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33119" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33120" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33121" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33122" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33123" TooltipText="Play back this macro"/>
+						<Control Class="CXTPControlButton" Id="33124" TooltipText="Play back this macro"/>
+						<OriginalControls>
+							<Control Class="CXTPControlButton" Id="688" Caption="Recorder On/Off" TooltipText="Recorder On/Off" DescriptionText="Record a keystroke macro"/>
+							<Control Class="CXTPControlButton" Id="689" Caption="Pause Recorder" TooltipText="Pause Recorder" DescriptionText="Pause the keystroke macro recorder"/>
+							<Control Class="CXTPControlButton" Id="690" Caption="Playback" TooltipText="Playback" DescriptionText="Playback a macro"/>
+							<Control Class="CXTPControlButton" Id="33109" BeginGroup="1" Caption="Play back this macro" TooltipText="Play back this macro" DescriptionText="Play back this macro"/>
+							<Control Class="CXTPControlButton" Id="33110"/>
+							<Control Class="CXTPControlButton" Id="33111"/>
+							<Control Class="CXTPControlButton" Id="33112"/>
+							<Control Class="CXTPControlButton" Id="33113"/>
+							<Control Class="CXTPControlButton" Id="33114"/>
+							<Control Class="CXTPControlButton" Id="33115"/>
+							<Control Class="CXTPControlButton" Id="33116"/>
+							<Control Class="CXTPControlButton" Id="33117"/>
+							<Control Class="CXTPControlButton" Id="33118"/>
+							<Control Class="CXTPControlButton" Id="33119"/>
+							<Control Class="CXTPControlButton" Id="33120"/>
+							<Control Class="CXTPControlButton" Id="33121"/>
+							<Control Class="CXTPControlButton" Id="33122"/>
+							<Control Class="CXTPControlButton" Id="33123"/>
+							<Control Class="CXTPControlButton" Id="33124"/>
+						</OriginalControls>
+					</Controls>
+				</CommandBar>
+				<CommandBar Class="CXTPToolBar" BarID="552" Flags="63" Style="4194304" Title="Tools" MRUWidth="32767">
+					<Controls OriginalControls="1">
+						<Control Class="CXTPControlButton" Id="32852" Caption="Sort" TooltipText="Sort" DescriptionText="Sort lines in the active document"/>
+						<Control Class="CXTPControlButton" Id="32848" Caption="Compare Files" TooltipText="Compare Files" DescriptionText="Find differences between two files"/>
+						<Control Class="CXTPControlButton" Id="33203" Caption="Check Spelling" ShortcutText="F7" TooltipText="Check Spelling" DescriptionText="Check the spelling in this document"/>
+						<Control Class="CXTPControlButton" Id="33200" Caption="View in Web Browser" TooltipText="View in Web Browser" DescriptionText="View the document in the default web browser"/>
+						<Control Class="CXTPControlButton" Id="32854" BeginGroup="1" Caption="Tool 1" ShortcutText="F1" TooltipText="49er Config" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32879" Caption="Tool 2" TooltipText="show logs" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32879" Caption="Tool 3" TooltipText="query ruby forum" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32879" Caption="Tool 4" TooltipText="query ruby forum" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32877" Caption="Tool 5" TooltipText="drill" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32879" Caption="Tool 6" TooltipText="query ruby forum" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32870" Caption="Tool 7" ShortcutText="Alt+C" TooltipText="drill this" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32870" Caption="Tool 8" ShortcutText="Alt+C" TooltipText="Tool 8" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32883" Caption="Tool 9" ShortcutText="Ctrl+W" TooltipText="Tool 9" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32884" Caption="Tool 10" ShortcutText="Ctrl+E" TooltipText="Tool 10" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32870" Caption="Tool 11" ShortcutText="Alt+C" TooltipText="create method stub" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32883" Caption="Tool 12" ShortcutText="Ctrl+W" TooltipText="options" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32884" Caption="Tool 13" ShortcutText="Ctrl+E" TooltipText="find ruby method" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32870" Caption="Tool 14" ShortcutText="Alt+C" TooltipText="create method stub" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32883" Caption="Tool 15" ShortcutText="Ctrl+W" TooltipText="options" DescriptionText="Start this tool"/>
+						<Control Class="CXTPControlButton" Id="32879" Caption="Tool 16" TooltipText="Tool 16" DescriptionText="Start this tool"/>
+						<OriginalControls>
+							<Control Class="CXTPControlButton" Id="32852" Caption="Sort" TooltipText="Sort" DescriptionText="Sort lines in the active document"/>
+							<Control Class="CXTPControlButton" Id="32848" Caption="Compare Files" TooltipText="Compare Files" DescriptionText="Find differences between two files"/>
+							<Control Class="CXTPControlButton" Id="33203" Caption="Check Spelling" TooltipText="Check Spelling" DescriptionText="Check the spelling in this document"/>
+							<Control Class="CXTPControlButton" Id="33200" Caption="View in Web Browser" TooltipText="View in Web Browser" DescriptionText="View the document in the default web browser"/>
+							<Control Class="CXTPControlButton" Id="32854" BeginGroup="1" Caption="Tool 1" TooltipText="Tool 1" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32855" Caption="Tool 2" TooltipText="Tool 2" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32856" Caption="Tool 3" TooltipText="Tool 3" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32857" Caption="Tool 4" TooltipText="Tool 4" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32858" Caption="Tool 5" TooltipText="Tool 5" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32859" Caption="Tool 6" TooltipText="Tool 6" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32860" Caption="Tool 7" TooltipText="Tool 7" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32861" Caption="Tool 8" TooltipText="Tool 8" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32862" Caption="Tool 9" TooltipText="Tool 9" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32863" Caption="Tool 10" TooltipText="Tool 10" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32864" Caption="Tool 11" TooltipText="Tool 11" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32865" Caption="Tool 12" TooltipText="Tool 12" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32866" Caption="Tool 13" TooltipText="Tool 13" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32867" Caption="Tool 14" TooltipText="Tool 14" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32868" Caption="Tool 15" TooltipText="Tool 15" DescriptionText="Start this tool"/>
+							<Control Class="CXTPControlButton" Id="32869" Caption="Tool 16" TooltipText="Tool 16" DescriptionText="Start this tool"/>
+						</OriginalControls>
+					</Controls>
+				</CommandBar>
+			</CommandBars>
+			<Layout>
+				<DockState Version="37" ScreenSize="1920, 1080" Count="11">
+					<BarInfo0 BarId="1" MRUWidth="32767" MRUDockPos="9, 5, 1033, 28"/>
+					<BarInfo1 BarId="547" Visible="0" MRUWidth="32767" PointPos="0, 23"/>
+					<BarInfo2 BarId="548" MRUWidth="32767" PointPos="0, 25"/>
+					<BarInfo3 BarId="549" Visible="0" MRUWidth="32767"/>
+					<BarInfo4 BarId="555" Visible="0" MRUWidth="32767"/>
+					<BarInfo5 BarId="550" Visible="0" MRUWidth="32767"/>
+					<BarInfo6 BarId="551" Visible="0" MRUWidth="32767"/>
+					<BarInfo7 BarId="552" Visible="0" MRUWidth="32767"/>
+					<BarInfo8 BarId="553" Visible="0" MRUWidth="32767" PointPos="0, 49"/>
+					<BarInfo9 BarId="554" Visible="0" MRUWidth="32767" PointPos="0, 49"/>
+					<BarInfo10 BarId="2106" Visible="0" MRUWidth="32767"/>
+				</DockState>
+				<DockBars>
+					<DockBar0 Count="23" Id1="1" Id3="547" Id5="548" Id7="549" Id9="550" Id11="551" Id13="552" Id15="553" Id17="554" Id19="555" Id21="2106"/>
+				</DockBars>
+			</Layout>
+		</CommandBars>
+		<Options Schema="37" AlwaysShowFullMenus="1" ShowFullAfterDelay="1" ToolBarScreenTips="1" ToolBarAccelTips="0" LargeIcons="0" Animation="0"/>
+		<DockingPane>
+			<Summary Panes="11" TopContainer="4" Client="8"/>
+			<Pane-1 Type="0" DockingCX="200" DockingCY="120" Title="Explorer\nExplorer\n" ID="59398" DockingHolder="6" LastHolder="6"/>
+			<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="Document Selector\nDocument Selector\n" ID="59397" DockingHolder="6" FloatingHolder="11" LastHolder="6"/>
+			<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Clip Library\nClip Library\n" ID="59396" DockingHolder="6" LastHolder="6"/>
+			<Pane-4 Type="2" DockingCY="643" Panes="1" Pane-1="5"/>
+			<Pane-5 Type="2" DockingCX="1424" DockingCY="541" Horiz="1" Panes="2" Pane-1="6" Pane-2="7"/>
+			<Pane-6 Type="1" DockingCX="286" DockingCY="120" Panes="1" Selected="2" Pane-1="2"/>
+			<Pane-7 Type="2" DockingCX="1134" Panes="1" Pane-1="8"/>
+			<Pane-8 Type="4"/>
+			<Pane-9 Type="3" WindowRectTopPos="80" WindowRectBottomPos="200" WindowRectLeftPos="1" WindowRectRightPos="201" TopContaner="10"/>
+			<Pane-10 Type="2" DockingCX="198" DockingCY="120" Horiz="1" Panes="1" Pane-1="11"/>
+			<Pane-11 Type="1" DockingCX="198" DockingCY="120" Panes="0"/>
+		</DockingPane>
+		<Dialog>
+			<Find l="49" t="102" r="419" b="291"/>
+			<Replace l="502" t="654" r="874" b="863"/>
+			<Grep l="1485" t="51" r="1903" b="276"/>
+		</Dialog>
+	</NormalLayout>
+	<FullScreenLayout>
+		<CommandBars>
+			<Layout>
+				<DockState Version="32" ScreenSize="1024, 768" Count="9">
+					<BarInfo0 BarId="1" MRUWidth="32767" MRUDockPos="9, 5, 1033, 28"/>
+					<BarInfo1 BarId="547" Visible="0" MRUWidth="32767" PointPos="0, 23"/>
+					<BarInfo2 BarId="548" Visible="0" MRUWidth="32767" PointPos="0, 23"/>
+					<BarInfo3 BarId="549" Visible="0" MRUWidth="32767"/>
+					<BarInfo4 BarId="550" Visible="0" MRUWidth="32767"/>
+					<BarInfo5 BarId="551" Visible="0" MRUWidth="32767"/>
+					<BarInfo6 BarId="552" Visible="0" MRUWidth="32767"/>
+					<BarInfo7 BarId="553" Visible="0" MRUWidth="32767" PointPos="0, 49"/>
+					<BarInfo8 BarId="554" MRUWidth="32767" PointPos="0, 23"/>
+				</DockState>
+				<DockBars>
+					<DockBar0 Count="19" Id1="1" Id3="547" Id5="548" Id7="549" Id9="550" Id11="551" Id13="552" Id15="553" Id17="554"/>
+				</DockBars>
+			</Layout>
+		</CommandBars>
+		<Options Schema="32" AlwaysShowFullMenus="1" ShowFullAfterDelay="1" ToolBarScreenTips="1" ToolBarAccelTips="0" LargeIcons="0" Animation="0"/>
+		<DockingPane>
+			<Summary Panes="8" TopContainer="4" Client="8"/>
+			<Pane-1 Type="0" DockingCX="200" DockingCY="120" Title="Explorer\nExplorer" ID="59398" DockingHolder="6" LastHolder="6"/>
+			<Pane-2 Type="0" DockingCX="200" DockingCY="120" Title="Document Selector\nDocument Selector" ID="59397" DockingHolder="6" LastHolder="6"/>
+			<Pane-3 Type="0" DockingCX="200" DockingCY="120" Title="Clip Library\nClip Library" ID="59396" DockingHolder="6" LastHolder="6"/>
+			<Pane-4 Type="2" DockingCY="643" Panes="1" Pane-1="5"/>
+			<Pane-5 Type="2" DockingCY="541" Horiz="1" Panes="2" Pane-1="6" Pane-2="7"/>
+			<Pane-6 Type="1" DockingCX="148" DockingCY="120" Panes="0"/>
+			<Pane-7 Type="2" DockingCX="872" Panes="1" Pane-1="8"/>
+			<Pane-8 Type="4"/>
+		</DockingPane>
+		<Dialog>
+			<Find l="645" t="49" r="1007" b="234"/>
+			<Replace l="357" t="191" r="721" b="396"/>
+		</Dialog>
+	</FullScreenLayout>
+</GUI>
