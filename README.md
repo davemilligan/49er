@@ -1,5 +1,7 @@
-49er
+49er 
 ====
+### A File management tool for Textpad.
+
 The 49er is happy to work from TextPad 4.* or 5.* but can probably be modified to work equally well
 using your preferred Text Editor. I leave that to you as an exercise.
 
